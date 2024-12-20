@@ -1,0 +1,42 @@
+[0.036s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example -DCMAKE_INSTALL_PREFIX=/home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example
+[0.347s] -- The C compiler identification is GNU 13.3.0
+[0.566s] -- The CXX compiler identification is GNU 13.3.0
+[0.597s] -- Detecting C compiler ABI info
+[0.727s] -- Detecting C compiler ABI info - done
+[0.742s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.747s] -- Detecting C compile features - done
+[0.762s] -- Detecting CXX compiler ABI info
+[0.939s] -- Detecting CXX compiler ABI info - done
+[0.980s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.980s] -- Detecting CXX compile features
+[0.982s] -- Detecting CXX compile features - done
+[0.994s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.247s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.403s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.540s] -- Added test 'lint_cmake' to check CMake code style
+[1.541s] -- Added test 'xmllint' to check XML markup files
+[1.544s] -- Configuring done (1.5s)
+[1.554s] -- Generating done (0.0s)
+[1.556s] -- Build files have been written to: /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example
+[1.562s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example -DCMAKE_INSTALL_PREFIX=/home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example
+[1.563s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j4 -l4
+[1.631s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j4 -l4
+[1.650s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example
+[1.674s] -- Install configuration: ""
+[1.674s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_example
+[1.674s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_example
+[1.674s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/ament_prefix_path.sh
+[1.674s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/ament_prefix_path.dsv
+[1.674s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/path.sh
+[1.674s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/path.dsv
+[1.675s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.bash
+[1.675s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.sh
+[1.675s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.zsh
+[1.675s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.dsv
+[1.676s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/package.dsv
+[1.676s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/packages/bumperbot_cpp_example
+[1.676s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/cmake/bumperbot_cpp_exampleConfig.cmake
+[1.677s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/cmake/bumperbot_cpp_exampleConfig-version.cmake
+[1.677s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/package.xml
+[1.679s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example

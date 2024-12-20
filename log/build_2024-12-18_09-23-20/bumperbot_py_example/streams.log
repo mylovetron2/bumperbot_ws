@@ -1,0 +1,19 @@
+[1.328s] Invoking command in '/home/mylovetron/bumperbot_ws/src/bumperbot_py_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mylovetron/bumperbot_ws/build/bumperbot_py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mylovetron/bumperbot_ws/install/bumperbot_py_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_example build --build-base /home/mylovetron/bumperbot_ws/build/bumperbot_py_example/build install --record /home/mylovetron/bumperbot_ws/build/bumperbot_py_example/install.log --single-version-externally-managed install_data
+[1.762s] running egg_info
+[1.798s] writing ../../build/bumperbot_py_example/bumperbot_py_example.egg-info/PKG-INFO
+[1.799s] writing dependency_links to ../../build/bumperbot_py_example/bumperbot_py_example.egg-info/dependency_links.txt
+[1.799s] writing requirements to ../../build/bumperbot_py_example/bumperbot_py_example.egg-info/requires.txt
+[1.801s] writing top-level names to ../../build/bumperbot_py_example/bumperbot_py_example.egg-info/top_level.txt
+[1.871s] reading manifest file '../../build/bumperbot_py_example/bumperbot_py_example.egg-info/SOURCES.txt'
+[1.872s] writing manifest file '../../build/bumperbot_py_example/bumperbot_py_example.egg-info/SOURCES.txt'
+[1.872s] running build
+[1.873s] running build_py
+[1.873s] running install
+[1.881s] running install_lib
+[1.914s] running install_data
+[1.914s] running install_egg_info
+[1.948s] removing '/home/mylovetron/bumperbot_ws/install/bumperbot_py_example/lib/python3.12/site-packages/bumperbot_py_example-0.0.0-py3.12.egg-info' (and everything under it)
+[1.952s] Copying ../../build/bumperbot_py_example/bumperbot_py_example.egg-info to /home/mylovetron/bumperbot_ws/install/bumperbot_py_example/lib/python3.12/site-packages/bumperbot_py_example-0.0.0-py3.12.egg-info
+[1.953s] running install_scripts
+[2.165s] writing list of installed files to '/home/mylovetron/bumperbot_ws/build/bumperbot_py_example/install.log'
+[2.195s] Invoked command in '/home/mylovetron/bumperbot_ws/src/bumperbot_py_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mylovetron/bumperbot_ws/build/bumperbot_py_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mylovetron/bumperbot_ws/install/bumperbot_py_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_example build --build-base /home/mylovetron/bumperbot_ws/build/bumperbot_py_example/build install --record /home/mylovetron/bumperbot_ws/build/bumperbot_py_example/install.log --single-version-externally-managed install_data

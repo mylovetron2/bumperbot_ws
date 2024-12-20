@@ -1,0 +1,48 @@
+[0.051s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j4 -l4
+[0.094s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.570s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.575s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.612s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.838s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.844s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.059s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.088s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.265s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.298s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.493s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.493s] -- Configured cppcheck include dirs: 
+[1.493s] -- Configured cppcheck exclude dirs and/or files: 
+[1.493s] -- Added test 'lint_cmake' to check CMake code style
+[1.494s] -- Added test 'uncrustify' to check C / C++ code style
+[1.494s] -- Configured uncrustify additional arguments: 
+[1.495s] -- Added test 'xmllint' to check XML markup files
+[1.496s] -- Configuring done (1.4s)
+[1.530s] -- Generating done (0.0s)
+[1.541s] -- Build files have been written to: /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example
+[1.633s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[11.058s] [100%] [32m[1mLinking CXX executable simple_publisher[0m
+[11.358s] [100%] Built target simple_publisher
+[11.376s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j4 -l4
+[11.392s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example
+[11.408s] -- Install configuration: ""
+[11.409s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_publisher
+[11.409s] -- Set non-toolchain portion of runtime path of "/home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_publisher" to ""
+[11.409s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_example
+[11.409s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_example
+[11.409s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/ament_prefix_path.sh
+[11.409s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/ament_prefix_path.dsv
+[11.409s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/path.sh
+[11.409s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/path.dsv
+[11.409s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.bash
+[11.410s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.sh
+[11.410s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.zsh
+[11.410s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.dsv
+[11.410s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/package.dsv
+[11.410s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/packages/bumperbot_cpp_example
+[11.411s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/cmake/bumperbot_cpp_exampleConfig.cmake
+[11.411s] -- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/cmake/bumperbot_cpp_exampleConfig-version.cmake
+[11.411s] -- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/package.xml
+[11.414s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example
