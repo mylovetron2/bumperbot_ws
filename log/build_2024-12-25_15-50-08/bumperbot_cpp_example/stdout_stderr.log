@@ -1,0 +1,31 @@
+[ 66%] Built target simple_subscriber
+[ 66%] Built target simple_publisher
+[ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParameter::[01;32m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:40:8:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   40 |        [01;35m[K}[m[K
+      |        [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable simple_parameter[0m
+[100%] Built target simple_parameter
+-- Install configuration: ""
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_publisher
+-- Set non-toolchain portion of runtime path of "/home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_publisher" to ""
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_subscriber
+-- Set non-toolchain portion of runtime path of "/home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_subscriber" to ""
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_parameter
+-- Set non-toolchain portion of runtime path of "/home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/lib/bumperbot_cpp_example/simple_parameter" to ""
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_example
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_example
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/ament_prefix_path.dsv
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/path.sh
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/environment/path.dsv
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.bash
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.sh
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.zsh
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/local_setup.dsv
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/package.dsv
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/ament_index/resource_index/packages/bumperbot_cpp_example
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/cmake/bumperbot_cpp_exampleConfig.cmake
+-- Up-to-date: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/cmake/bumperbot_cpp_exampleConfig-version.cmake
+-- Installing: /home/mylovetron/bumperbot_ws/install/bumperbot_cpp_example/share/bumperbot_cpp_example/package.xml

@@ -1,0 +1,4 @@
+[0.010s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j16 -l16
+[0.057s] [100%] Built target simple_publisher
+[0.057s] [100%] Built target simple_parameter
+[0.057s] [100%] Built target simple_subscriber

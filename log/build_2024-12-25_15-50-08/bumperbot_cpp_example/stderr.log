@@ -1,0 +1,4 @@
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParameter::[01;32m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:40:8:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   40 |        [01;35m[K}[m[K
+      |        [01;35m[K^[m[K

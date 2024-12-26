@@ -1,0 +1,8 @@
+[0.009s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.022s] [31mCMake Error at CMakeLists.txt:15:
+[0.022s]   Parse error.  Expected "(", got identifier with text "rviz".
+[0.022s] 
+[0.023s] [0m
+[0.023s] -- Configuring incomplete, errors occurred!
+[0.023s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.192s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_description' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_description -- -j16 -l16

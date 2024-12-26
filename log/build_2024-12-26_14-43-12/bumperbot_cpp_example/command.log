@@ -1,0 +1,4 @@
+Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j16 -l16
+Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example -- -j16 -l16
+Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example
+Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example

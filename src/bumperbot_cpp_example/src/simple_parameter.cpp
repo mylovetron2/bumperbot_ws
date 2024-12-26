@@ -3,6 +3,9 @@
 #include <rcl_interfaces/msg/set_parameters_result.hpp>
 #include <string>
 #include <vector>
+#include <memory>
+
+using std::placeholders::_1;
 
 class SimpleParameter: public rclcpp::Node
 {
@@ -14,7 +17,7 @@ class SimpleParameter: public rclcpp::Node
             param_callback_handle_= add_on_set_parameters_callback(std::bind(&SimpleParameter::paramChangeCallback,this, _1));
         }
     private:
-    
+
        OnSetParametersCallbackHandle::SharedPtr param_callback_handle_;
 
        

@@ -2,6 +2,7 @@
 /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/bumperbot_cpp_example_uninstall.dir
 /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/simple_publisher.dir
 /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/simple_subscriber.dir
+/home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/simple_parameter.dir
 /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/test.dir
 /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/edit_cache.dir
 /home/mylovetron/bumperbot_ws/build/bumperbot_cpp_example/CMakeFiles/rebuild_cache.dir

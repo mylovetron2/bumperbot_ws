@@ -1,0 +1,21 @@
+[0.009s] Invoking command in '/home/mylovetron/bumperbot_ws/build/bumperbot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.027s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.145s] Traceback (most recent call last):
+[1.145s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.145s]     from ament_package.templates import get_environment_hook_template_path
+[1.145s] ModuleNotFoundError: No module named 'ament_package'
+[1.167s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.167s]   execute_process(/usr/bin/python3
+[1.167s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.167s]   /home/mylovetron/bumperbot_ws/build/bumperbot_description/ament_cmake_package_templates/templates.cmake)
+[1.167s]   returned error code 1
+[1.167s] Call Stack (most recent call first):
+[1.167s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.167s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.167s]   /opt/ros/jazzy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.167s]   CMakeLists.txt:9 (find_package)
+[1.167s] 
+[1.167s] [0m
+[1.168s] -- Configuring incomplete, errors occurred!
+[1.169s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.170s] Invoked command in '/home/mylovetron/bumperbot_ws/build/bumperbot_description' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mylovetron/bumperbot_ws/build/bumperbot_description -- -j16 -l16

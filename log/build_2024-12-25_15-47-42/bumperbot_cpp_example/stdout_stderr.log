@@ -1,0 +1,23 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[ 66%] Built target simple_subscriber
+[ 83%] Built target simple_publisher
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:[m[K In constructor ‘[01m[KSimpleParameter::[01;32m[KSimpleParameter[m[K()[m[K’:
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:14:122:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   14 |             param_callback_handle_= add_on_set_parameters_callback(std::bind(&SimpleParameter::paramChangeCallback,this, [01;31m[K_1[m[K));
+      |                                                                                                                          [01;31m[K^~[m[K
+      |                                                                                                                          [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:1[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult SimpleParameter::[01;32m[KparamChangeCallback[m[K(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/mylovetron/bumperbot_ws/src/bumperbot_cpp_example/src/simple_parameter.cpp:37:8:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   37 |        [01;35m[K}[m[K
+      |        [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/simple_parameter.dir/build.make:76: CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/simple_parameter.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
