@@ -5,7 +5,9 @@
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+/home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/test.py
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+/home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/turtlesim_mimic_launch.py
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
 /home/mylovetron/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
