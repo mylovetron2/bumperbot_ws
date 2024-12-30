@@ -8,38 +8,43 @@ from launch_ros.parameter_descriptions import ParameterValue
 from launch.substitutions import Command, LaunchConfiguration
 
 def generate_launch_description():
-    default_value=os.path.join()
-    model_arg=DeclareLaunchArgument(
-        name="model",
-        default_value=os.path.join(get_package_share_directory("bumperbot_description"),"urdf","bumperbot.urdf.xacro"),
-        description="Absolute path to robot URDF file"
+    package_name = 'bumperbot_description'
+
+    pkg_share = get_package_share_directory(package_name)
+
+    urdf_file_path = os.path.join(pkg_share, 'urdf', 'bumperbot.urdf.xacro')
+
+    with open(urdf_file_path, 'r') as urdf_file:
+        robot_description = urdf_file.read()
+
+    #robot_description=ParameterValue(Command(["xacro",LaunchConfiguration("model")]),value_type=str)
+    
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen'
     )
-    
-    robot_description=ParameterValue(Command(["xacro",LaunchConfiguration("model")]),value_type=str)
-    
-    robot_state_publisher=Node(
-            package="robot_state_publisher",
-            executable="robot_state_publiser",
-            parameter=[{"robot_description": robot_description}]
-        )
-        
-    
-    joint_state_publisher_gui =Node(
-        package="joint_state_publisher_gui",
-        executable="joint_state_publisher_gui"
+
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        name='robot_state_publisher',
+        output='both',
+        parameters=[{'robot_description': robot_description}],
     )
-    
-    rviz_node=Node(
-        package="rviz2",
-        executable="rviz2",
-        name="rviz2",
-        output="screen",
-        arguments=["-d",os.path.join(get_package_share_directory("bumperbot_description"),"rviz","display.rviz")]
+
+    joint_state_publisher_gui = Node(
+        package='joint_state_publisher_gui',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui'
     )
+
     
+
     return LaunchDescription([
-        model_arg,
+        rviz_node,
         robot_state_publisher,
-        joint_state_publisher_gui,
-        rviz_node
+        joint_state_publisher_gui
+        
     ])
